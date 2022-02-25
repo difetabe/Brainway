@@ -1,0 +1,25 @@
+:root {
+ --accent-color: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+}
+
+.container {
+ margin: 0 auto;
+ width: 90%;
+ max-width: 1140px;
+}
+
+._highlight {
+ color: var(--accent-color);
+}
+
+.content-block-row {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.title {
+ color: var(--accent-color);
+ font-family: Rubik, sans-serif;
+}
