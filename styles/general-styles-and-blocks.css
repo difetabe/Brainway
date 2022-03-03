@@ -3,53 +3,86 @@
 :root {
     --accent-color: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
     --main-text-color: #000;
+    --accent-bg-color: linear-gradient(90deg, rgba(106, 17, 203, 0.1) 0%, rgba(37, 117, 252, 0.1) 100%);
+    --second-bg-color: #F8F8F8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div,
+span,
+p,
+h1,
+h2,
+h3 {
+    cursor: default;
 }
 
 body {
     padding: 0;
     margin: 0;
-    font: 400 20px/32px 'Rubik', sans-serif;
+    font: 400 20px/160% 'Rubik', sans-serif;
+    letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
 
 .container {
     margin: 0 auto;
-    width: 90%;
-    max-width: 1168px;
+    width: 87%;
+    max-width: 1170px;
 }
 
 ._highlight {
+    font-weight: 700;
     color: #2575FC;
     background-image: var(--accent-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.content-block-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .title {
-    color: var(--accent-color);
-    font-family: Rubik, sans-serif;
+    color: #2575FC;
+    background-image: var(--accent-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font: bold 2em/160% Rubik, sans-serif;
 }
 
 .button {
+    height: max-content;
     text-decoration: none;
-    padding: 10px 20px 10px 26px;
-    font: 500 17px/20px 'Rubik', sans-serif;
-    letter-spacing: 0.03em;
+    padding: 0.7em 1.2em 0.65em 1.5em;
+    font: 500 0.85em/1em 'Rubik', sans-serif;
     color: #fff;
     background: var(--accent-color);
     box-shadow: 0 5px 15px rgba(0, 70, 187, 0.4);
     border-radius: 10px;
 }
 
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #0047FF;
+}
+
+.button:active {
+    box-shadow: 0 5px 15px rgba(0, 70, 187, 0.4);
+    background: linear-gradient(90deg, #8939E0 0%, #68A0FD 100%);
+}
+
 ._sr-only {
-    position: absolute;
-    display: none;
-    z-index: -99;
+    position: absolute !important;
+    display: none !important;
+    z-index: -99 !important;
+}
+
+._semi-bold-txt {
+    font-weight: 500 !important;
+}
+
+._m-auto-row {
+    margin: 0 auto !important;
 }
