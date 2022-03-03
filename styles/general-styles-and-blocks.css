@@ -21,12 +21,15 @@ h3 {
     cursor: default;
 }
 
+html {
+    font: 400 1.25em/160% 'Rubik', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
 body {
     padding: 0;
     margin: 0;
-    font: 400 20px/160% 'Rubik', sans-serif;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
 }
 
 .container {
@@ -36,7 +39,7 @@ body {
 }
 
 ._highlight {
-    font-weight: 700;
+    font-weight: 700 !important;
     color: #2575FC;
     background-image: var(--accent-color);
     -webkit-background-clip: text;
@@ -49,14 +52,14 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font: bold 2em/160% Rubik, sans-serif;
+    font: bold 2rem/160% Rubik, sans-serif;
 }
 
 .button {
     height: max-content;
     text-decoration: none;
-    padding: 0.7em 1.2em 0.65em 1.5em;
-    font: 500 0.85em/1em 'Rubik', sans-serif;
+    padding: 0.5rem 1rem 0.5rem 1.3rem;
+    font: 500 0.85rem/1rem 'Rubik', sans-serif;
     color: #fff;
     background: var(--accent-color);
     box-shadow: 0 5px 15px rgba(0, 70, 187, 0.4);

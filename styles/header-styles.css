@@ -4,7 +4,6 @@
 
 .header--body {
     position: relative;
-    margin: auto 0;
 }
 
 .header--logo {
@@ -19,6 +18,9 @@
     justify-content: right;
     align-items: center;
     gap: 46px;
+
+    font-size: 0.85rem;
+    line-height: 1rem;
 }
 
 .nav-menu_header {
@@ -34,10 +36,6 @@
     text-align: center;
     display: block;
     color: inherit;
-
-    font-size: 0.85em;
-    line-height: 1em;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -73,9 +71,6 @@
     display: inline-block;
     color: inherit;
     font-weight: 500;
-    font-size: 0.85em;
-    line-height: 1em;
-    letter-spacing: 0.03em;
     text-decoration: none;
     position: relative;
 }
@@ -97,9 +92,6 @@
 }
 
 .change-lang {
-    font-size: 0.85em;
-    line-height: 20px;
-    letter-spacing: 0.03em;
     position: relative;
     display: flex;
     align-items: center;
@@ -140,7 +132,7 @@
 
 .change-lang--item {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 0.25rem;
 }
 
 .change-lang--item::before {
@@ -167,7 +159,7 @@
 
 .selected-lang {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 0.25rem;
 }
 
 .change-lang--down-shift-icon {

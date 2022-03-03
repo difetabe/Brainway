@@ -8,14 +8,15 @@
     color: var(--footer-font-color);
     background: var(--footer-bg-color);
     font-family: Spartan, sans-serif;
+    letter-spacing: 0;
 }
 
 .footer--body {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 53px 0 55px;
     width: 100%;
-    letter-spacing: 0;
 }
 
 .footer--content {
@@ -24,13 +25,13 @@
 }
 
 .footer--title {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     line-height: 120%;
     margin-bottom: 40px;
 }
 
 .footer--description {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     line-height: 140%;
     font-weight: 600;
     color: #2575FC;
@@ -48,19 +49,9 @@
 }
 
 .footer--e-mail {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     line-height: 140%;
     font-weight: 600;
-}
-
-.footer--inst-link_no-styles {
-    display: none;
-    color: transparent;
-}
-
-.footer--facebook-link_no-styles {
-    position: absolute;
-    display: none;
 }
 
 .footer--nav {
@@ -84,7 +75,7 @@
     width: max-content;
     color: inherit;
     text-decoration: none;
-    font-size: 0.85em;
+    font-size: 0.85rem;
     line-height: 112%;
     font-weight: 600;
 }
@@ -94,7 +85,7 @@
 }
 
 .footer--web-info {
-    font-size: 0.65em;
+    font-size: 0.65rem;
     line-height: 115%;
     font-weight: 600;
 }

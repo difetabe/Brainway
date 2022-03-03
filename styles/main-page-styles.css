@@ -23,16 +23,16 @@
 }
 
 .main-intro--title {
-    margin-bottom: 30px;
-    font-size: 2.75em;
-    letter-spacing: 0;
+    margin-bottom: 33px;
+    font-size: 2.75rem;
     line-height: 140%;
+    letter-spacing: 0;
 }
 
 .main-intro--content {
     max-width: 453px;
     width: 100%;
-    margin-bottom: 63px;
+    margin-bottom: 61px;
 }
 
 .moving-to-next-section {
@@ -41,15 +41,14 @@
 
 .moving-to-next-section--text {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .moving-to-next-section--icon {
     position: relative;
-    left: -3px;
     display: block;
-    width: 42px;
-    height: 40px;
+    width: 40px;
+    height: 50px;
 }
 
 .moving-to-next-section--icon::before {
@@ -62,7 +61,7 @@
 
 .video-section {
     background-color: #F8F8F8;
-    padding: 60px 0 85px;
+    padding: 58px 0 85px;
 }
 
 .video-section--body {
@@ -73,13 +72,12 @@
 
 .video-section--title {
     position: relative;
+    left: 10px;
     font-weight: 500;
-    left: 7px;
-    font-size: 1.5em;
+    font-size: 1.53rem;
     line-height: 140%;
     max-width: 646px;
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
 
@@ -138,12 +136,12 @@
 }
 
 .solutions-content-block--title {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     display: inline-block;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     margin-bottom: 17px;
-    padding: 20px 40px;
+    padding: 1rem 2rem;
     color: #2575FC;
     background-image: var(--accent-color);
     background-color: #fff;
@@ -153,7 +151,7 @@
 
 .solutions-content-block--description {
     margin-left: 27px;
-    font-size: 0.85em;
+    font-size: 0.85rem;
     line-height: 160%;
 }
 
@@ -185,7 +183,7 @@
 
 .goals--title {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.6rem;
     line-height: 160%;
     margin-bottom: 65px;
 }
@@ -197,7 +195,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0;
+    padding: 2rem 0;
 }
 
 .goals-content-block::before {
@@ -205,9 +203,7 @@
     top: 0;
     height: 1px;
     width: 100%;
-
     background: var(--accent-color);
-
     content: "";
 }
 
@@ -228,15 +224,15 @@
 
 .goals-content-block--description {
     max-width: 605px;
-    font-size: 0.85em;
+    font-size: 0.84rem;
     line-height: 160%;
     font-weight: 400;
 }
 
 .goals-content-block--button {
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 120%;
-    padding: 11px 37px;
+    padding: 0.55rem 1.85rem;
 }
 
 /* REVIEWS */
