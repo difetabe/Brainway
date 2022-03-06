@@ -3,23 +3,24 @@
 @import "footer-styles.css";
 
 .main-intro {
-    position: relative;
     padding: 90px 0 145px;
 }
 .main-intro::before {
-    width: 765px;
-    height: 594px;
+    width: 50%;
+    max-width: 765px;
+    height: 100%;
+    max-height: 594px;
     position: absolute;
     top: 0;
     right: 0;
-    background: url("images/main-back-image.png") center / cover no-repeat;
+    background: url("images/main-back-image.png") center / contain no-repeat;
     content: "";
     z-index: -1;
 }
 
 .main-intro--body {
     max-width: 610px;
-    width: 100%;
+    width: 60%;
 }
 
 .main-intro--title {
@@ -182,7 +183,6 @@
 }
 
 .goals--title {
-    text-align: center;
     font-size: 2.6rem;
     line-height: 160%;
     margin-bottom: 65px;

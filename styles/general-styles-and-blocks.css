@@ -32,6 +32,14 @@ body {
     margin: 0;
 }
 
+.section {
+    position: relative;
+}
+
+.bg-decor {
+    position: absolute;
+}
+
 .container {
     margin: 0 auto;
     width: 87%;
@@ -47,11 +55,12 @@ body {
 }
 
 .title {
+    width: max-content;
+    margin: 0 auto;
     color: #2575FC;
     background-image: var(--accent-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     font: bold 2rem/160% Rubik, sans-serif;
 }
 

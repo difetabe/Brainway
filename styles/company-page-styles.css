@@ -1,3 +1,126 @@
 @import "general-styles-and-blocks.css";
 @import "header-styles.css";
 @import "footer-styles.css";
+
+.about-us {
+    position: relative;
+    padding: 45px 0 41px;
+}
+
+.about-us--title {
+    margin-bottom: 80px;
+}
+
+.about-us--body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us--content-block-item {
+    position: relative;
+}
+
+.about-us--content-block_1 {
+    max-width: 591px;
+}
+
+.about-us-content-block--title {
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    line-height: 160%;
+    font-weight: 700;
+    padding: 0.6rem 1.85rem 0.65rem 1.9rem;
+
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+    margin-bottom: 40px;
+}
+
+.about-us-content-block--title_1 {
+    max-width: 536px;
+    margin-left: 37px;
+}
+
+.about-us-content-block--title_2 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 76px;
+}
+
+.about-us-content-block--content {
+    font-size: 0.85rem;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+.about-us--decor-pic {
+    top: -50px;
+}
+
+.about-us--content-block_2 {
+    max-width: 685px;
+    right: 69px;
+    top: -59px
+}
+
+/*  GALLERY */
+
+.gallery {
+    padding: 102px 0 82px;
+}
+
+.gallery--title {
+    margin-bottom: 20px;
+}
+
+.gallery--description {
+    font-size: 0.85rem;
+    line-height: 150%;
+    text-align: center;
+    max-width: 632px;
+    margin: 0 auto 70px;
+}
+
+/* JOIN-TEAM */
+
+.join-team {
+    padding-top: 82px;
+}
+
+.join-team--body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join-team--content {
+    max-width: 433px;
+}
+
+.join-team--title {
+    margin: 0 0 30px;
+}
+
+.join-team--description {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.join-team--email-for-contact {
+    font-size: 1.5rem;
+    line-height: 160%;
+    font-weight: 700;
+}
+
+.join-team--bg-pic {
+    position: relative;
+    bottom: -75px;
+    z-index: 0;
+}
+

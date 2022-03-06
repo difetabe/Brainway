@@ -5,10 +5,13 @@
 }
 
 .footer {
+    position: relative;
     color: var(--footer-font-color);
     background: var(--footer-bg-color);
     font-family: Spartan, sans-serif;
     letter-spacing: 0;
+
+    z-index: 100;
 }
 
 .footer--body {
