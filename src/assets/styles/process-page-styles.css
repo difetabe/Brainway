@@ -1,6 +1,6 @@
-@import "general-styles-and-blocks.css";
-@import "header-styles.css";
-@import "footer-styles.css";
+@import "src/assets/styles/general-styles-and-blocks.css";
+@import "src/assets/styles/header-styles.css";
+@import "src/assets/styles/footer-styles.css";
 
 
 /* PROCESS */
@@ -19,7 +19,7 @@
     position: absolute;
     top: 192px;
     right: 12%;
-    background: url("images/process-back-image.png") right / contain no-repeat;
+    background: url("src/assets/styles/images/process-back-image.png") right / contain no-repeat;
     content: "";
     z-index: -99;
 }
@@ -87,7 +87,7 @@
     width: 180px;
     height: 168px;
 
-    background: no-repeat center / contain url("images/prosess-decor-colors-palete.png");
+    background: no-repeat center / contain url("src/assets/styles/images/prosess-decor-colors-palete.png");
     content: "";
 }
 
@@ -101,7 +101,7 @@
     right: 10px;
     width: 84px;
     height: 101px;
-    background: no-repeat center / contain url("images/process-decor-idea.png");
+    background: no-repeat center / contain url("src/assets/styles/images/process-decor-idea.png");
     content: "";
 }
 
@@ -113,7 +113,7 @@
     width: 151px;
     height: 147px;
 
-    background: no-repeat center / contain url("images/process-decor-plan.png");
+    background: no-repeat center / contain url("src/assets/styles/images/process-decor-plan.png");
     content: "";
 }
 

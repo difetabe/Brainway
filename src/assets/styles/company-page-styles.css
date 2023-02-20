@@ -1,6 +1,6 @@
-@import "general-styles-and-blocks.css";
-@import "header-styles.css";
-@import "footer-styles.css";
+@import "src/assets/styles/general-styles-and-blocks.css";
+@import "src/assets/styles/header-styles.css";
+@import "src/assets/styles/footer-styles.css";
 
 .about-us {
     position: relative;

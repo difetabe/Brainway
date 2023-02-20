@@ -1,7 +1,3 @@
-@import "general-styles-and-blocks.css";
-@import "header-styles.css";
-@import "footer-styles.css";
-
 .main-intro {
     padding: 90px 0 145px;
 }
@@ -13,7 +9,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url("images/main-back-image.png") center / contain no-repeat;
+    background: url("src/assets/styles/images/main-back-image.png") center / contain no-repeat;
     content: "";
     z-index: -1;
 }

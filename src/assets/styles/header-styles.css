@@ -41,8 +41,8 @@
     text-decoration: none;
 }
 
-.nav-menu--item_header:hover * {
-    cursor: pointer;
+.nav-menu--item_header:hover {
+    text-shadow: 1px 1px 2px black;
 }
 
 .nav-menu--item-normal_header {

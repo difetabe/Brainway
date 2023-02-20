@@ -1,4 +1,4 @@
-@import "fonts/fonts.css";
+@import "src/assets/styles/fonts/fonts.css";
 
 :root {
     --accent-color: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);

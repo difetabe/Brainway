@@ -1,6 +1,6 @@
-@import "general-styles-and-blocks.css";
-@import "header-styles.css";
-@import "footer-styles.css";
+@import "src/assets/styles/general-styles-and-blocks.css";
+@import "src/assets/styles/header-styles.css";
+@import "src/assets/styles/footer-styles.css";
 
 .reasons {
     padding: 60px 0 105px;
@@ -106,7 +106,7 @@
     left: 8px;
     height: 100%;
     width: 671px;
-    background: url("images/why-brainway-bg-pic-1.png") left / cover no-repeat;
+    background: url("src/assets/styles/images/why-brainway-bg-pic-1.png") left / cover no-repeat;
 
     content: "";
 }
@@ -121,7 +121,7 @@
     right: 30px;
     height: 100%;
     width: 571px;
-    background: url("images/why-brainway-bg-pic-2.png") right / cover no-repeat;
+    background: url("src/assets/styles/images/why-brainway-bg-pic-2.png") right / cover no-repeat;
 
     content: "";
 }
@@ -136,7 +136,7 @@
     right: 65px;
     height: 100%;
     width: 464px;
-    background: url("images/why-brainway-bg-pic-3.png") right / cover no-repeat;
+    background: url("src/assets/styles/images/why-brainway-bg-pic-3.png") right / cover no-repeat;
     content: "";
 }
 
@@ -150,7 +150,7 @@
     right: 22px;
     height: 100%;
     width: 517px;
-    background: url("images/why-brainway-bg-pic-4.png") right / cover no-repeat;
+    background: url("src/assets/styles/images/why-brainway-bg-pic-4.png") right / cover no-repeat;
 
     content: "";
 }
